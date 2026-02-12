@@ -36,6 +36,7 @@ console.log('Última película', personaje['ultima-pelicula'] );
 delete personaje.edad;
 console.log( personaje );
 
+// para añadir un elemento al personaje 
 personaje.casado =  true;
 
 // para convertir en un array de arrays, es decir, cada elemento del objeto pasara a estar dentro de un array [key, value]
@@ -44,6 +45,7 @@ console.log( entriesPares );
 
 // personaje = true;
 
+// para que no se pueda modificar el objeto 
 Object.freeze( personaje );
 
 personaje.dinero = 10000000000;
