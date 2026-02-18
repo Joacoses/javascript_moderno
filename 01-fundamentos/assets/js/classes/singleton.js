@@ -19,11 +19,6 @@ class Singleton {
         // return this;
     }
 
-
-
-
-
-
 }
 
 
